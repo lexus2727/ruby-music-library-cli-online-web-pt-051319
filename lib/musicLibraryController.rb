@@ -71,7 +71,7 @@ def list_songs
  end
   
   def list_songs_by_genre
-   puts "Please enter the name of a genre:"
+   puts "Please enter the name of a genre:"music
    input = gets.strip
    
    if genre = Genre.find_by_name(input)
